@@ -3468,6 +3468,48 @@ img {
   height: var(--_sizes---gap--md-gap);
 }
 
+.insurance-card {
+  background: #ffffff;
+  border: 2px solid #e5e5e5;
+  border-radius: 0;
+  padding: 3rem 2.5rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 140px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.insurance-card:hover {
+  border-color: #0066cc;
+  box-shadow: 0 4px 16px rgba(0,102,204,0.1);
+  transform: translateY(-2px);
+}
+
+.insurance-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2c3e50;
+  line-height: 1.4;
+}
+
+.insurance-logo {
+  max-width: 90%;
+  max-height: 80px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+  border-radius: 0;
+}
+
+.insurance-logo-large {
+  max-height: 100px;
+}
+
 .max-width_90percent {
   max-width: 90%;
 }
