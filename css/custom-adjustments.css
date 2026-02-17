@@ -1,0 +1,11 @@
+/* Custom adjustments for Emocean Counseling Services */
+
+/* Make header button smaller so company name stays on one line */
+.nav_right .button {
+  padding: 0.7em 1.2em !important;
+  font-size: 0.9rem !important;
+}
+
+.nav_right .button_label {
+  font-size: 0.9rem !important;
+}
