@@ -72,6 +72,18 @@
     aspect-ratio: 1 / 1 !important;
   }
   
+  .image-ratio_auto {
+    width: 100% !important;
+  }
+  
+  /* Ensure images are visible on mobile */
+  .image-ratio_2x3 img,
+  .image-ratio_auto img,
+  .image_cover {
+    visibility: visible !important;
+    opacity: 1 !important;
+  }
+  
   /* Card padding */
   .content-block-link {
     padding: 0.5rem;
