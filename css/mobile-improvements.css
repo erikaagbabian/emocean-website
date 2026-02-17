@@ -12,6 +12,11 @@
     font-size: 0.9rem !important;
   }
   
+  /* Hide "Emocean Counseling Services" text in nav on mobile */
+  .nav_logo .paragraph_large[data-brand-name="true"] {
+    display: none !important;
+  }
+  
   /* Hero section improvements */
   .hero_container {
     padding: 2rem 1rem;
