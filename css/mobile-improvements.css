@@ -12,11 +12,6 @@
     font-size: 0.9rem !important;
   }
   
-  /* Hide "Emocean Counseling Services" text in nav on mobile */
-  .nav_logo .paragraph_large[data-brand-name="true"] {
-    display: none !important;
-  }
-  
   /* Hide "Emocean Counseling Services" text in footer on mobile */
   .footer .paragraph_large[data-brand-name="true"] {
     display: none !important;
