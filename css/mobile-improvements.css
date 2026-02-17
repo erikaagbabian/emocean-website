@@ -17,6 +17,22 @@
     display: none !important;
   }
   
+  /* Move Book Now button to the left on mobile */
+  .nav_container {
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    justify-content: space-between !important;
+  }
+  
+  .nav_right {
+    order: -1 !important;
+    margin-right: auto !important;
+  }
+  
+  .nav_right .button-group {
+    margin-right: 0 !important;
+  }
+  
   /* Hide "Emocean Counseling Services" text in footer on mobile */
   .footer .paragraph_large[data-brand-name="true"] {
     display: none !important;
