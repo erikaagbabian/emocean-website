@@ -91,18 +91,36 @@
   /* Image ratio adjustments */
   .image-ratio_2x3 {
     aspect-ratio: 1 / 1 !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow: hidden !important;
+    position: relative !important;
   }
   
   .image-ratio_auto {
     width: 100% !important;
   }
   
-  /* Ensure images are visible on mobile */
+  /* Ensure images are visible and properly sized on mobile */
   .image-ratio_2x3 img,
   .image-ratio_auto img,
   .image_cover {
     visibility: visible !important;
     opacity: 1 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    object-position: center !important;
+  }
+  
+  /* Treatment options section image fixes */
+  .ix_sticky-card .image-ratio_2x3 {
+    min-height: 250px !important;
+    max-height: 400px !important;
+  }
+  
+  .ix_sticky-card img {
+    display: block !important;
   }
   
   /* Card padding */
@@ -222,6 +240,12 @@
     padding: 0.7rem 1rem !important;
     font-size: 0.9rem !important;
     width: auto !important;
+  }
+  
+  /* Treatment section images - consistent sizing */
+  .ix_sticky-card .image-ratio_2x3 {
+    min-height: 220px !important;
+    max-height: 300px !important;
   }
 }
 
